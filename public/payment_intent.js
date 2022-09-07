@@ -6,7 +6,6 @@ window.onload = () => {
         const {client_secret: clientSecret} = await response.json();
     
         const options = {
-            // clientSecret: 'seti_1LfSZ2IWsXy36PUS38iguv2h_secret_MOF3JlqVNsOr5Cd49C3YsVyTsnRXTe1',
             clientSecret,
             // Fully customizable with appearance API.
             appearance: {/*...*/},
